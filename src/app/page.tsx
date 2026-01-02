@@ -19,8 +19,10 @@ export default function Home() {
               backgroundSize:"15px 15px",
               backgroundRepeat:"repeat",
           }}
-      className={cn(GeistSans.className,"h-screen flex items-center justify-center mt-5 bg-gray-50")}>
-        {activeComponent === 'Button' ? <Button /> : <Card />}
+      className={cn(GeistSans.className,"h-screen flex items-center justify-center mt-2 bg-gray-50")}>
+        {activeComponent === 'Button' ? <Button /> : <div>
+          <Card />
+          </div>}
       </div>
     </>
   );
