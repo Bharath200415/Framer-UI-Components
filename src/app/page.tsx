@@ -21,7 +21,7 @@ export default function Home() {
           }}
       className={cn(GeistSans.className,"h-screen flex items-center justify-center mt-2 bg-gray-50")}>
         {activeComponent === 'Button' ? <Button /> : <div>
-          <Card />
+          <Card/>
           </div>}
       </div>
     </>
