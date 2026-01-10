@@ -1,4 +1,4 @@
-# 🚀 Framer UI Components
+# ✨ Framer UI Components
 
 A collection of **high-quality, reusable, and interactive UI components** built with **Framer Motion** and **React**.  
 Designed to help you build beautiful interfaces with smooth animations in record time.
