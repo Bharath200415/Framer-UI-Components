@@ -46,9 +46,9 @@ Simply copy the desired component file from the src/components folder and paste 
 
 ## 🛠️ Tech Stack
 
-### React
-### Framer Motion
-### Tailwind CSS (recommended for styling)
+**React**
+**Framer Motion**
+**Tailwind CSS** 
 
 ---
 
