@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ✨ Framer UI Components
 
-## Getting Started
+A collection of **high-quality, reusable, and interactive UI components** built with **Framer Motion** and **React**.  
+Designed to help you build beautiful interfaces with smooth animations in record time.
 
-First, run the development server:
+[Explore Components](#-components-included) • [Quick Start](#-quick-start) • [Contributing](#-contributing)
 
+---
+
+## ✨ Features
+
+- **Smooth Animations** – Powered by Framer Motion  
+- **Modern Design** – Clean, minimal, and highly customizable  
+- **Copy-Paste Ready** – Easily integrate into React / Next.js projects  
+- **Responsive** – Works seamlessly across all screen sizes  
+
+---
+
+## 📦 Quick Start
+
+### 1. Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Bharath200415/Framer-UI-Components.git
+cd Framer-UI-Components
 ```
+### 2️. Install dependencies
+```bash 
+npm install framer-motion lucide-react
+```
+### 3. Usage
+Simply copy the desired component file from the src/components folder and paste it into your project.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📂 Components Included
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🖱️ Buttons – Animated hover effects and loading states
 
-## Learn More
+🗂️ Cards – Tilt effects, glassmorphism, and reveal animations
 
-To learn more about Next.js, take a look at the following resources:
+📱 Navigation – Sticky headers and mobile-responsive menus
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🎞️ Modals – Smooth entry and exit transitions
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🛠️ Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**React**
+**Framer Motion**
+**Tailwind CSS** 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🤝 Contributing
+
+### Contributions are welcome! 🎉
+
+**If you have a cool component idea or improvement:**
+1. Fork the repository
+
+2. Create your feature branch
+
+3. Commit your changes
+
+4. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License
