@@ -36,7 +36,7 @@ export const Card = () => {
             "shadow-[0_1px_1px_rgba(0,0,0,0.05),0_4px_6px_rgba(34,42,53,0.04),0_24px_68px_rgba(47,48,55,0.05),0_2px_3px_rgba(0,0,0,0.04)]",
             "p-6 flex flex-col"
         )}>
-            <h2 className='font-bold text-[14px]'>Kylix UI components</h2>
+            <h2 className='font-bold text-[14px]'>Aceternity UI components</h2>
             <p className='text-neutral-600 mt-2 text-[11px]'>A collection of beautiful UI components, built with love and coffee.</p>
             <div className='flex items-center justify-center'>
                 <button onClick={()=>{
@@ -49,7 +49,7 @@ export const Card = () => {
                     alt="logo"
                     className='h-4 w-4'
                     src="https://ui.aceternity.com/logo.png"/>{""}
-                    Kylix Studios
+                    Aceternity Studios
                     <IconX className="h-3 w-3 text-neutral-400"/>
                     
                     </button>
