@@ -1,0 +1,24 @@
+"use client";
+import { DitherShader } from "@/components/ui/dither-shader";
+import React, { useState } from 'react'
+import { cn } from '@/lib/utils';
+
+
+export const DitherCard=()=>{
+  return (
+    <div className="flex flex-col items-center gap-6 p-8">
+      <div className="relative overflow-hidden rounded-2xl border border-neutral-200 shadow-2xl dark:border-neutral-800">
+        <DitherShader   
+          src="/utkarsh.jpeg"
+          gridSize={1}
+          ditherMode="bayer"
+          colorMode="duotone"
+          primaryColor="#1e3a5f"
+          secondaryColor="#f0e68c"
+          threshold={0.45}
+          className="h-72 w-[450px] sm:h-100 sm:w-[600px]"
+        />
+      </div>
+    </div>
+  );
+} 

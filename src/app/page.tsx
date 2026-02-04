@@ -9,10 +9,11 @@ import { Navbar } from "@/components/navbar";
 import { Keyboard } from "@/components/keyboard";
 import { PricingCard } from "@/components/PricingCard";
 import { DarkCard } from "@/components/darkCard";
+import { DitherCard } from "@/components/DitherCard";
 
 export default function Home() {
   const [activeComponent, setActiveComponent] = useState<
-    "Card" | "Button" | "Keyboard" | "PricingCard" | "DarkCard"
+    "Card" | "Button" | "Keyboard" | "PricingCard" | "DarkCard" | "DitherCard"
   >("Card");
 
   const componentsMap = {
@@ -20,7 +21,8 @@ export default function Home() {
     Card,
     Keyboard,
     PricingCard,
-    DarkCard
+    DarkCard,
+    DitherCard
   };
 
   const ActiveComponent = componentsMap[activeComponent];

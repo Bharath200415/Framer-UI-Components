@@ -14,7 +14,22 @@ export const DarkCard = () => {
   const [isDev, setIsDev] = useState(false)
   
   return (
-    <motion.div className={cn('top-5 w-102 relative min-h-105 h-159 rounded-4xl ',
+    <motion.div
+        initial={{
+        opacity:0,
+        scale:0.98,
+        filter:'blur(5px)'
+        }}
+        animate={{
+          opacity:1,
+          scale:1,
+          filter:"blur(0px)"
+        }}
+        transition={{
+            duration:0.2,
+            ease:"easeInOut"
+        }}
+     className={cn('top-5 w-102 relative min-h-105 h-159 rounded-4xl ',
       'shadow-lg bg-neutral-950 shadow-neutral-600',
       'flex flex-col p-2 justify-center align-center'
       )}>

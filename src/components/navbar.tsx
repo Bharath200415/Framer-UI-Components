@@ -2,8 +2,8 @@
 import React from 'react';
 
 interface NavbarProps {
-  activeComponent: 'Card' | 'Button' | 'Keyboard' | 'PricingCard'|'DarkCard';
-  setActiveComponent: (component: 'Card' | 'Button' | 'Keyboard'| 'PricingCard'|'DarkCard') => void;
+  activeComponent: 'Card' | 'Button' | 'Keyboard' | 'PricingCard'|'DarkCard'|'DitherCard';
+  setActiveComponent: (component: 'Card' | 'Button' | 'Keyboard'| 'PricingCard'|'DarkCard'|'DitherCard') => void;
 }
 
 export const Navbar = ({ activeComponent, setActiveComponent }: NavbarProps) => {
@@ -61,6 +61,16 @@ export const Navbar = ({ activeComponent, setActiveComponent }: NavbarProps) => 
               }`}
             >
               Dark Card
+            </button>
+            <button
+              onClick={() => setActiveComponent('DitherCard')}
+              className={`inline-flex items-center px-1 pt-1 border-b-2 text-md font-medium transition-colors ${
+                activeComponent === 'DitherCard'
+                  ? 'border-cyan-500 text-gray-900'
+                  : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
+              }`}
+            >
+              Dither Card
             </button>
           </div>
         </div>

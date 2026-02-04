@@ -28,7 +28,7 @@ export const Card = () => {
             filter:"blur(10px)"
         }}
         transition={{
-            duration:0.5,
+            duration:0.7,
             ease:"easeInOut"
         }}
 
