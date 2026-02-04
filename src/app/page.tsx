@@ -8,17 +8,19 @@ import { Card } from "@/components/card";
 import { Navbar } from "@/components/navbar";
 import { Keyboard } from "@/components/keyboard";
 import { PricingCard } from "@/components/PricingCard";
+import { DarkCard } from "@/components/darkCard";
 
 export default function Home() {
   const [activeComponent, setActiveComponent] = useState<
-    "Card" | "Button" | "Keyboard" | "PricingCard"
+    "Card" | "Button" | "Keyboard" | "PricingCard" | "DarkCard"
   >("Card");
 
   const componentsMap = {
     Button,
     Card,
     Keyboard,
-    PricingCard
+    PricingCard,
+    DarkCard
   };
 
   const ActiveComponent = componentsMap[activeComponent];

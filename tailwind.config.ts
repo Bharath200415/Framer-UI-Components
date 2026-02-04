@@ -10,6 +10,8 @@ const config: Config = {
     extend: {
       fontFamily: {
         satoshi: ['var(--font-satoshi)'],
+        poppins: ['var(--font-poppins)'],
+        inter: ['var(--font-inter)'],
       },
     },
   },
